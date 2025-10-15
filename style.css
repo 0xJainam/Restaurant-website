@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#heading{
+    text-align: center;
+    padding:15px;
+    font-size:3em;
+}
+.Home{
+    padding:40px;
+}
+header{
+    max-width:100%; 
+    border-bottom:1px solid black;
+    align-items: center;
+    display:flex;
+    justify-content: flex-end;
+    padding:15px ;   
+}
+nav{
+    margin-left:auto;
+    margin-right:0;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+nav a{
+    display:block;
+    padding:10px 15px;
+    text-decoration: none;
+    color:hsl(226, 83%, 39%);
+    margin:0;
+    user-select: none;
+}
+nav a:hover{
+    text-decoration: underline rgb(188, 197, 5);
+    color:hsl(0, 71%, 39%)
+}
+.badhai{
+    padding:15px 15px;
+    text-align: center;
+}
+#cf{
+    text-align: center;
+    padding: 40px;
+}
+.special{
+    min-width:80%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:25px;
+    user-select:none;
+}
+.dish{
+    border:1px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+.dish:hover{
+    box-shadow:0px 0px 15px rgb(174, 0, 96);
+    transform:scale(1.1);
+}
+.dish h4{
+    padding:15px 10px 10px;
+}
+.dish a{
+    text-decoration: none;
+    color:firebrick
+}
+.dish img{
+    width:250px;
+    height:200px;
+    object-fit:cover;
+}
+.menu-page{
+    padding:40px;
+}
+.menu-category{
+    padding:15px;
+}
+.menu-page h1{
+    font-size:3em;
+}
+.menu-category h2{
+    text-align: left;
+    font-size:2em;
+    border-bottom:2px solid;
+    padding-bottom:10px;
+    margin-bottom:25px;
+}
+.menu-items-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;  /* equal column banayega */
+    gap:30px;
+}
+.item-name {
+  margin-bottom:5px;
+}
+.item-description {
+  color: #555;
+  flex-grow: 1;   /* price ko niche bhejega */
+  margin-bottom: 10px;
+}
+.menu-item {
+    display: flex;
+    flex-direction: column;   /* price ek hi line me laane ke liye */
+}
+.item-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.about{
+    padding:40px;
+}
